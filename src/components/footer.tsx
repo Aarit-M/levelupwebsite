@@ -75,7 +75,7 @@ export function Footer() {
     </li>
     <li>
       <Typography color="white" className="py-1 font-medium transition-colors">
-        <MavItem href="https://www.material-tailwind.com/docs/react/installation" target="_blank">Docs</MavItem>
+        <MavItem href="https://github.com/Aarit-M/LevelUP" target="_blank">Docs</MavItem>
       </Typography>
     </li>
   </ul>
@@ -93,25 +93,12 @@ export function Footer() {
                   width={256}
                   height={256}
                   src="/logos/logo-apple.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
+                  className="-mt-0.5 mr-2 h-6 w-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
                   alt="ios"
                 />
-                App Store
+                Steam
               </Button> </a>
-              <a href="https://play.google.com/store/games?hl=en_US&gl=US" target="blank"><Button
-                color="white"
-                className="flex items-center justify-center"
-              >
-                <Image
-                  width={256}
-                  height={256}
-                  src="/logos/logo-google.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
-                />
-                Google Play
-              </Button> </a>
-              <a href="www.com" target="blank"> <Button
+              <a href="https://fblalevelup.itch.io/playnow" target="blank"> <Button
                 color="white"
                 className="flex items-center justify-center"
               >
@@ -119,8 +106,8 @@ export function Footer() {
                   width={256}
                   height={256}
                   src="/logos/logo-web.png"
-                  className="-mt-0.5 mr-2 h-6 w-6"
-                  alt="ios"
+                  className="-mt-0.5 mr-2 h-6 w-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+                  alt="web"
                 />
                 Web Game
               </Button> </a>

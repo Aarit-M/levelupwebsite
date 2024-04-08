@@ -10,7 +10,7 @@ import { Element } from 'react-scroll'
 const TESTIMONIALS = [
   {
     feedback:
-      "djdj",
+      "My name is Rayan Hossain. I am an 8th grader that attends Woodrow Wilson Middle School. Along with participating in numerous Hackathons and placing 1st in several, I enjoy computer programming and playing video games in my free time.",
     client: "Rayan Hossain",
     title: "Student at WWMS",
     img: "/image/avatar.png",

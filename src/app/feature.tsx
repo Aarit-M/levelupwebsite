@@ -5,7 +5,7 @@ import { Typography } from "@material-tailwind/react";
 
 import {
   CursorArrowRaysIcon,
-  HeartIcon,
+  ComputerDesktopIcon,
   LightBulbIcon,
   LockClosedIcon,
 } from "@heroicons/react/24/solid";
@@ -20,10 +20,10 @@ const FEATURES = [
       "Our game takes you into the life of someone in the business field and gives players the experience of working at a real job, in the real world.",
   },
   {
-    icon: HeartIcon,
-    title: "Mobile Convenience",
+    icon: ComputerDesktopIcon,
+    title: "Multi-platformed",
     children:
-      "Adapts straight to your phone screen so you can play this game on the go.",
+      "Made with community in mind, our game allows users to play whether they're on windows, mac, or linux.",
   },
 ];
 

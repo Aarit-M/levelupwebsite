@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-tailwind-app-presentation-page",
+  "name": "LevelUP",
   "version": "1.0.0",
   "private": true,
   "author": "Creative Tim",
@@ -15,6 +15,7 @@
     "@heroicons/react": "2.0.18",
     "@material-tailwind/react": "^2.1.2",
     "file-loader": "^6.2.0",
+    "framer-motion": "^11.0.25",
     "next": "^14.1.4",
     "react": "18",
     "react-dom": "18",

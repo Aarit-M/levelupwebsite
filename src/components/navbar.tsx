@@ -100,7 +100,7 @@ export function Navbar() {
   About Us
 </NavItem>
   <MavItem href="mailto:twoawesome9@gmail.com">Contact Us</MavItem>
-          <MavItem href="https://www.material-tailwind.com/docs/react/installation" target="_blank">
+          <MavItem href="https://github.com/Aarit-M/LevelUP" target="_blank">
             Docs
           </MavItem>
         </ul>
@@ -136,13 +136,10 @@ export function Navbar() {
           </IconButton>
 </a>
 
-
-
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
-              Blocks
+            <Button color={isScrolling ? "gray" : "white"} size="sm" className="transition ease-in-out delay-150 hover:-translate-y-[2px] hover:scale-110 duration-300">
+              RAR
             </Button>
-          </a>
+
         </div>
         </div>
     </MTNavbar>

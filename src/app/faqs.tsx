@@ -6,14 +6,14 @@ import { Link, Element, animateScroll as scroll, scrollSpy } from 'react-scroll'
 const FAQS = [
   {
     title: "How Do I Play?",
-    desc: "Getting started is easy! Simply download the game on any one of the platforms listen below and start!", 
+    desc: "Getting started is easy! Simply download the game on any one of the platforms listed below and start!", 
     bullet: "• Google Playstore",
     bullet1: "• Website",
     bullet2: "• AppStore",
   },
   {
     title: "How Much Does the Game Cost?",
-    desc: "Absolutely nothing. Just download and play",
+    desc: "Absolutely nothing. Just download and play!",
   },
   {
     title: "What If I Need Help or Have Technical Issues?",

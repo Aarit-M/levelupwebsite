@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212121
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #048aff;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out; /* Adding transition effect */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0366d6;
+}
+
+nextjs-portal {
+  display: none;
+}
